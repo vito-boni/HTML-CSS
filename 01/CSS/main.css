@@ -1,0 +1,54 @@
+h1 {
+    color: #D0D3D4;
+}
+
+.mainp{
+    color: #D0D3D4;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    /*text-decoration: ;*/
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: none;
+    z-index: 100;
+}
+
+.testd{
+    height: 100px;
+    width: 100px;
+    background-color: #ed2939;
+    padding: 100px 0 0 100px;
+    z-index: 1000;
+    border: #002654 solid 30px;
+    padding: none;
+    cursor: pointer;
+    visibility: none; /*hidden*/
+}
+
+#french-flag {
+    width: 300px;
+    height: 100px;
+  }
+  
+    #french-flag .blue {
+    background-color: #002654;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    }
+
+    #french-flag .white {
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    }
+
+    #french-flag .red {
+    background-color: #ed2939;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    }
