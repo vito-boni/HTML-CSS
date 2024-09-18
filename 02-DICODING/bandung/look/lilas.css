@@ -11,13 +11,18 @@ body {
     padding: 0;
 }
 
+.top{
+    color: #EEE2EE;
+    animation: fadeIn 2s ease-in-out;
+}
+
 header h1 {
     color: #EEE2EE;
     animation: fadeIn 2s ease-in-out;
 }
 
 header p {
-    color: #EEE2EE;
+    color: #C8A2C8;
 }
 
 article h2 {
@@ -25,7 +30,7 @@ article h2 {
 }
 
 p {
-    color: #333;
+    color: #351635;
 }
 
 a {
@@ -74,11 +79,9 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-
-
 footer {
     padding: 20px;
-    color: white;
+    color: #FFFFFF;
     background-color: #a742ac;
     text-align: center;
 
@@ -86,7 +89,13 @@ footer {
     margin-top: 20px;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 
+    padding: 20px;
+    margin-top: 20px;
+}
 
 .jumbotron {
     font-size: 20px;
@@ -100,10 +109,16 @@ footer {
 nav {
     background-color: #834E83;
     padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
 }
 
 nav li {
-    display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
@@ -119,9 +134,18 @@ nav a {
 
 main {
     padding: 20px;
+    overflow: auto;
 }
 
+#content {
+    float: left;
+    width: 75%;
+}
 
+aside {
+    float: right;
+    width: 25%
+}
 
 .featured-image {
     width: 100%;
@@ -132,13 +156,6 @@ main {
 
 .profile img {
     width: 200px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
 }
 
 
@@ -156,6 +173,18 @@ main {
 
 footer {
     animation: slideIn 1.5s ease-out;
+}
+
+header {
+    display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, 
+    aside {
+      width: 100%;
+      padding: 0;
+    }
 }
 
 /* Palette de couleurs lilas */
