@@ -1,1 +1,188 @@
+/* Thème foncé */
+body.dark-mode {
+    background-color: #333;
+    color: #fafafa;
+}
 
+body.dark-mode table th {
+    background-color: #6a0dad;
+}
+
+body.dark-mode table tr:nth-child(even) {
+    background-color: #444;
+}
+
+body.dark-mode table tr:hover {
+    background-color: #555;
+}
+
+/* Thème clair*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf0f8;
+    color: #4a4a4a; 
+    line-height: 1.6;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+   
+  .profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #A262A2;
+    text-align: center;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #834E83;
+    padding: 5px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #834E83;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+header h1 {
+    color: #EEE2EE; animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+header p {
+    color: #EEE2EE; 
+}
+
+article h2 {
+    color: #C8A2C8;
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #C8A2C8;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6a0dad;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+footer {
+    background-color: #f2bae4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px
+    animation: slideIn 1.5s ease-out;
+}
+
+img.featured-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img.featured-image {
+    transition: transform 0.3s ease;
+}
+
+img.featured-image:hover {
+    transform: scale(1.02);
+}
+
+table {
+    width: 35%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #986298; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #C8A2C8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #B080B0;
+}
+
+/*
+LILAS COLOR PALETTE
+#834E83
+#A262A2
+#B582B5
+#CBA2CB
+#DBC2DB
+#EEE2EE
+#FFFFFF
+*/
